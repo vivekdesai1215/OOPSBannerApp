@@ -1,34 +1,26 @@
 //@author Developer
-//@version 2
+//@version 5
 
 
 public class OOPSBannerApp{
-
 	public static void main(String[] args){
 
-		String[] arr = new String[7];
-
-		arr[0] = String.join(" ", "   ****   ", "   *****   ");
-
-		arr[1] = String.join(" ", " **    ** ", "   **      ");
-
-		arr[2] = String.join(" ", " **    ** ", "   **      ");
-
-		arr[3] = String.join(" ", " **    ** ", "   *****   ");
-
-		arr[4] = String.join(" ", " **    ** ", "      **   ");
-
-		arr[5] = String.join(" ", " **    ** ", "      **   ");
-
-		arr[6] = String.join(" ", "   ****   ", "   *****   ");
-
-		for(String s : arr){
+		String[] lines = {
+			String.join(" ", "   ****   ", "   *****   "),
+			String.join(" ", " **    ** ", "   **      "),
+			String.join(" ", " **    ** ", "   **      "),
+			String.join(" ", " **    ** ", "   *****   "),
+			String.join(" ", " **    ** ", "      **   "),
+			String.join(" ", " **    ** ", "      **   "),
+			String.join(" ", "   ****   ", "   *****   ")
+		};
+		
+		for(String s : lines){
 
 			System.out.println(s);
 
 		}
 
 	}	
-
 }
  
